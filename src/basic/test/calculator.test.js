@@ -1,4 +1,4 @@
-const Calculator = require('../../calculator.js');
+const Calculator = require('../calculator.js');
 
 // 여러 테스트를 그룹으로 만들 수 있음
 describe('Calculator', () => {
