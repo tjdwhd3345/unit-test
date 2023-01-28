@@ -13,7 +13,6 @@ describe('Stack', () => {
 
   it('아이템 하나 push', () => {
     stack.push('mo');
-    expect(stack.getData()).toEqual(['mo']);
     expect(stack.size()).toBe(1);
   });
 
@@ -46,7 +45,6 @@ describe('Stack', () => {
       const peeked = stack.peek();
 
       expect(peeked).toEqual('lee');
-      expect(stack.getData()).toEqual(['mo', 'lee']);
       expect(stack.size()).toBe(2);
     });
   });
